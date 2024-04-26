@@ -1,0 +1,145 @@
+/* Write some CSS below */
+
+body {font-size: 16px;
+color: #202124;
+text-align: center;
+font-family: "Rubik";
+}
+
+h1 {font-size: 32px;
+color: #c79bdf;}
+
+h2 {font-size: 18px;
+color: #9e1e5c;}
+
+h3 {font-size: 18px;
+    color: #ac8009} 
+
+a{text-decoration: none;
+background-color: #9e1e5c;
+color: aliceblue;
+border-radius: 20px;
+padding: 15px 25px;}
+
+a:hover {background-color: aliceblue;
+color: #202124;}
+
+.a1{text-decoration: none;
+    background-color: #ac8009;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: auto ;
+    margin-top: 15px;}
+
+.a1:hover {background-color:aliceblue;
+color: #202124;}
+
+img {border-radius: 50%;
+max-width: 150px;}
+
+.img1 {border-radius: 20px;
+    max-width: 180px;
+    max-height: auto;
+    margin-bottom: 10px;
+}
+
+.img2 {border-radius: 20px;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.div1{background-color: #202124;
+    color: aliceblue;
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px rgba(0,0,0,0.1);
+    margin: 40px auto;
+    padding: 30px 40px;
+padding-bottom: 45px;}
+
+.div2{background-color: #202124;
+    color: aliceblue;
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px rgba(0,0,0,0.1);
+    margin: 40px auto;
+    padding: 30px 40px;
+padding-bottom: 45px;}
+
+.div2:hover {background-color: aliceblue;
+color: #202124;}
+
+.div2:hover h3{color: #9e1e5c;}
+
+.div4{background-color: #202124;
+    color: aliceblue;
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px rgba(0,0,0,0.1);
+    margin: 40px auto;
+    padding: 30px 40px;
+padding-bottom: 45px;}
+
+.div3{background-color:aliceblue;
+    color: #202124;
+    width: 700px;
+    border:4px solid #202124;
+    border-radius: 20px;
+    border-style: double;
+    box-shadow: 0px 10px 20px #000000;
+    margin: 40px auto;
+    padding: 30px 40px;
+    padding-bottom: 45px;}
+
+div{background-color: aliceblue;
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    margin: 40px auto;
+    padding: 30px 40px;}
+
+
+table {
+    border-collapse: collapse;
+    border: 0px solid rgb(140 140 140);
+    font-family: "Rubik";
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin: 0px auto;
+    }
+    
+    caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+    }
+    
+    thead,
+    tfoot {
+    background-color: #202124;
+    margin-bottom: 10px;
+    }
+    
+    th,
+    td {
+    border: 20px solid #202124);
+    padding: 8px 10px;
+    }
+    
+    td:last-of-type {
+    text-align: center;
+    }
+    
+    tbody > tr:nth-of-type(even) {
+    background-color: #202124;
+    margin-top: 15px;
+    }
+    
+    tfoot th {
+    text-align: center;
+    }
+    
+    tfoot td {
+    font-weight: center;
+    }
